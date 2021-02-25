@@ -26,12 +26,24 @@ header {
     margin-right: 15px;
     color: #5b5858;
     text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.gmail:hover {
+    text-decoration: underline;
 }
 
 .picturesearch {
     margin-right: 25px;
     color: #5b5858;
     text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.picturesearch:hover {
+    text-decoration: underline;
 }
 
 .profilepic {
@@ -42,6 +54,10 @@ header {
     margin-right: 30px;
 }
 
+.profilepic:hover {
+    box-shadow: 0 0 5px #4e8f29
+}
+
 #hamburger {
     background-image: url("../img/hamburger.svg");
     height: 24px;
@@ -49,12 +65,16 @@ header {
     margin-right: 25px;
 }
 
+#hamburger:hover {
+    outline: 1px solid grey;
+}
+
 #services_window {
     position: absolute;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 300px;
     height: 450px;
@@ -75,7 +95,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 30%;
+    flex-basis: 33%;
+    margin-top: 15px;
+
 }
 
 .title {
@@ -255,11 +277,12 @@ header {
 }
 
 .more {
-    width: 280px;
+    width: 250px;
     height: 80px;
     margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
     border-radius: 10px;
     border: 1px solid #dfe1e5;
     text-align: center;
@@ -297,7 +320,10 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
 
+.searchbar:hover {
+    box-shadow: 0 0 5px #a8aba5
 }
 
 .search_input {
@@ -307,6 +333,7 @@ header {
     margin-bottom: 4px;
     margin-left: 5px;
     border-style: none;
+    font-size: 14px;
 }
 
 .magnifyimg {
@@ -343,7 +370,7 @@ header {
 }
 
 .search:hover {
-    background-color: grey;
+    background-color: #d7d7d7;
 }
 
 .lucky {
@@ -356,7 +383,7 @@ header {
 }
 
 .lucky:hover {
-    background-color: grey;
+    background-color: #d7d7d7;
 }
 
 .langs {
@@ -364,6 +391,17 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
+    font-family: Arial, serif;
+    color: #3c4043;
+}
+
+.langs a {
+    text-decoration: none;
+}
+
+.space {
+    margin-left: 5px;
 }
 
 footer {
@@ -402,10 +440,21 @@ footer {
 .upper-foot p {
     color: rgb(112 117 122);
     margin-left: 30px;
+    font-size: 14px;
+    font-family: Arial, serif;
 }
 
 .lower-foot a {
     color: rgb(112 117 122);
     text-decoration: none;
-    font-family: Arial;
+    font-size: 14px;
+    font-family: Arial, serif;
+}
+
+.lower-foot a:hover {
+    text-decoration: underline;
+}
+
+.how-it-works {
+    margin-right: 400px;
 }

@@ -10,8 +10,8 @@
 <body>
 
 <header>
-    <a class="gmail" href="https://mail.google.com/mail">Почта</a>
-    <a class="picturesearch" href="https://www.google.ru/imghp?hl=ru&authuser=0&ogbl">Картинки</a>
+    <a class="gmail" href="https://mail.google.com/mail" target="_blank">Почта</a>
+    <a class="picturesearch" href="https://www.google.ru/imghp?hl=ru&authuser=0&ogbl" target="_blank">Картинки</a>
     <div id="hamburger"></div>
     <div id="services_window" style="display: none">
         <div class="menu-btn">
@@ -107,33 +107,41 @@
             <p>Другие приложения и продукты от Google</p>
         </div>
     </div>
-    <div class="profilepic"></div>
+    <a href="https://accounts.google.com/SignOutOptions?hl=ru&continue=https://www.google.ru/" target="_blank">
+        <div class="profilepic"></div>
+    </a>
 </header>
 <div class="container" id="container">
     <div class="googlegif"></div>
     <div class="searchbar">
         <div class="magnifyimg" onclick="err()"></div>
         <input name="search" type="search" id="search_input" class="search_input" onsubmit="err()">
-        <div class="voiceimg"></div>
+        <div class="voiceimg" onclick="i_hear_you()"></div>
     </div>
     <div class="buttons">
         <button class="search">Поиск в Google</button>
         <button class="lucky">Мне повезет!</button>
     </div>
-    <p class="langs">Сервисы Google доступны на разных языках:<a href="#"> English</a></p>
-
+    <p class="langs">Сервисы Google доступны на разных языках:<span class="space"><a href="#">English</a></span></p>
+    <!-- возникла тупая проблема с выставлением пробела между двоеточием и english! -->
 </div>
 <footer>
     <div class="upper-foot">
         <p class="region">Россия</p>
     </div>
     <div class="lower-foot">
-        <a href="#" class="ads">Реклама</a>
-        <a href="#" class="business">Для бизнеса</a>
-        <a href="#" class="about">Всё о Google</a>
-        <a href="#" class="how-it-works">Как работает Google поиск</a>
-        <a href="#" class="privacy">Конфиденциальность</a>
-        <a href="#" class="conditions">Условия</a>
+        <a href="https://www.google.ru/intl/ru_ru/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+           target="_blank"
+           class="ads">Реклама</a>
+        <a href="https://www.google.ru/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+           target="_blank" class="business">Для бизнеса</a>
+        <a href="https://about.google/?utm_source=google-RU&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+           target="_blank"
+           class="about">Всё о Google</a>
+        <a href="https://google.com/search/howsearchworks/?fg=1" target="_blank" class="how-it-works">Как работает
+            Google поиск</a>
+        <a href="https://policies.google.com/privacy?hl=ru&fg=1" target="_blank" class="privacy">Конфиденциальность</a>
+        <a href="https://policies.google.com/terms?hl=ru&fg=1" target="_blank" class="conditions">Условия</a>
         <a href="#" class="settings">Настройки</a>
     </div>
 

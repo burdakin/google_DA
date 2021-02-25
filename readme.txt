@@ -1,1 +1,0 @@
-Task link - https://conf.dataart.com/display/JSA/CSS+1+-+Igor+Oziyan

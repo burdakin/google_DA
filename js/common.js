@@ -22,6 +22,10 @@ function err() {
 alert('Хватит тебе, это же макет – иди погугли на настоящем Яндексе!')
 }
 
+function i_hear_you() {
+    alert('Вас плохо слышно, говорите громче!')
+}
+
 var click = document.getElementById('search_input');
 click.addEventListener('keydown', function (e) {
     if (e.keyCode === 13) {
