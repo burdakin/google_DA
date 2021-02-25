@@ -28,10 +28,3 @@ click.addEventListener('keydown', function (e) {
         err();
     }
 })
-
-// Говорят, что keyCode ныне не используется, но я ничего другого не нашел(
-
-/*var menu_disp = document.getElementById('services_window');
-window.addEventListener('load', function () {
-    menu_disp.style.display = 'none';
-})*/
