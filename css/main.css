@@ -172,12 +172,98 @@ header {
 
 .line {
     width: 280px;
-    border: 0.2px solid #dfe1e5;
+    border: 1px solid #dfe1e5;
     height: 0px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
+}
 
+.docs {
+    background-position: 0 -690px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.blog {
+    background-position: 0 -2967px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.contacts {
+    background-position: 0 -1932px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.hangouts {
+    background-position: 0 -2415px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.sheets {
+    background-position: 0 -2553px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.slides {
+    background-position: 0 0;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.books {
+    background-position: 0 -621px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.keep {
+    background-position: 0 -483px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.earth {
+    background-position: 0 -207px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.podcast {
+    background-position: 0 -345px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.more {
+    width: 280px;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid #dfe1e5;
+    text-align: center;
+    vertical-align: center;
+}
+
+.more p {
+    margin-top: 25px;
+    color: #6fb1ea;
 }
 
 .container {
