@@ -63,21 +63,48 @@ header {
     border: 1px solid #dfe1e5;
 }
 
+#services_window:first-child{
+    margin-left: 50px;
+}
+
 .menu-btn {
-    height: 64px;
-    width: 64px;
     margin-right: 25px;
-    margin-bottom: 20px;
     margin-top: 20px;
-    background-image: url("../img/spite.png");
-    background-position: 0 -2001px;
+
 }
 
 .title {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    position: relative;
-    top: 70px;
+    text-align: center;
+}
+
+.translate {
+    background-image: url("../img/spite.png");
+    background-position: 0 -2001px;
+    height: 64px;
+    width: 64px;
+}
+
+.drive {
+    background-image: url("../img/spite.png");
+    background-position: 0 -1863px;
+    height: 64px;
+    width: 64px;
+}
+
+.search_button {
+    background-image: url("../img/spite.png");
+    background-position: 0 -897px;
+    height: 64px;
+    width: 64px;
+}
+
+.maps {
+    background-image: url("../img/spite.png");
+    background-position: 0 -1311px;
+    height: 64px;
+    width: 64px;
 }
 
 .container {
