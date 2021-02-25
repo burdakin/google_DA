@@ -63,9 +63,14 @@ header {
 }
 
 .menu-btn {
-    height: 40px;
-    width: 30px;
+    height: 70px;
+    width: 45px;
     margin-right: 25px;
+    text-align: center;
+    background-color: blue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
 }
 
 .container {
