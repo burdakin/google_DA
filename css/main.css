@@ -18,7 +18,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: baseline;
+    align-items: center;
+    padding: 10px 0;
 }
 
 .gmail {
@@ -43,7 +44,7 @@ header {
 
 #hamburger {
     background-image: url("../img/hamburger.svg");
-    height: 20px;
+    height: 24px;
     width: 24px;
     margin-right: 25px;
 }
@@ -311,7 +312,7 @@ header {
 .magnifyimg {
     background-image: url("../img/search.svg");
     width: 30px;
-    height: 35px;
+    height: 30px;
     background-repeat: no-repeat;
     margin-left: 5px;
 }
@@ -319,7 +320,7 @@ header {
 .voiceimg {
     background-image: url("../img/voice_icon.svg");
     width: 30px;
-    height: 35px;
+    height: 30px;
     background-repeat: no-repeat;
     margin-right: 15px;
 }
@@ -329,6 +330,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    width: 300px;
 }
 
 .search {
