@@ -135,6 +135,51 @@ header {
     width: 64px;
 }
 
+.photo {
+    background-position: 0 -69px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.news {
+    background-position: 0 -1587px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.meet {
+    background-position: 0 -1173px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.duo {
+    background-position: 0 -1794px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.chrome {
+    background-position: 0 -2691px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.line {
+    width: 280px;
+    border: 0.2px solid #dfe1e5;
+    height: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+
+}
+
 .container {
     flex: 1 0 auto;
     width: 100%;
