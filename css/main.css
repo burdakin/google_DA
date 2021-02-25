@@ -52,7 +52,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 300px;
     height: 450px;
@@ -63,7 +63,7 @@ header {
     border: 1px solid #dfe1e5;
 }
 
-#services_window:first-child{
+#services_window:first-child {
     margin-left: 50px;
 }
 
@@ -103,6 +103,34 @@ header {
 .maps {
     background-image: url("../img/spite.png");
     background-position: 0 -1311px;
+    height: 64px;
+    width: 64px;
+}
+
+.tube {
+    background-image: url("../img/spite.png");
+    background-position: 0 -2829px;
+    height: 64px;
+    width: 64px;
+}
+
+.play {
+    background-position: 0 -1035px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.mail {
+    background-position: 0 -2760px;
+    background-image: url("../img/spite.png");
+    height: 64px;
+    width: 64px;
+}
+
+.calend {
+    background-position: 0 -1518px;
+    background-image: url("../img/spite.png");
     height: 64px;
     width: 64px;
 }
@@ -213,8 +241,9 @@ footer {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    border-bottom: 0.3px solid #dadce0 ;
+    border-bottom: 0.3px solid #dadce0;
 }
+
 .lower-foot {
     height: 40px;
     width: 100%;
